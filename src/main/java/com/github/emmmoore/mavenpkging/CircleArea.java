@@ -1,4 +1,4 @@
-package geometry.area.circle;
+package com.github.emmmoore.mavenpkging;
 ​
 public class App {
 ​
