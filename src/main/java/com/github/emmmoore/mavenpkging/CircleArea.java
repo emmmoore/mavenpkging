@@ -1,11 +1,11 @@
 package com.github.emmmoore.mavenpkging;
 
-public class App {
-	public double radius;
-	public App() {
+public class CircleArea {
+	private double radius;
+	public CircleArea() {
 		radius = 5.0;
 	}
-	public App(double radiusR) {
+	public CircleArea(double radiusR) {
 		this.radius = radiusR;
 	}
 	public double getRadius() {
@@ -16,9 +16,5 @@ public class App {
 	}
 	public double getCircleArea() {
 		return (Math.PI * radius * radius);
-	}
-	public static void main(String[] args) {
-		App a = new App(5);
-		System.out.println("Circle with Radius = " + this.getRadius() + " has Area: " + this.getCircleArea());
 	}
 }
