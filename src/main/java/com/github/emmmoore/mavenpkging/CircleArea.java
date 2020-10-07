@@ -19,6 +19,6 @@ public class App {
 	}
 	public static void main(String[] args) {
 		App a = new App(5);
-		System.out.println("Circle with Radius = " + getRadius() + " has Area: " + getCircleArea());
+		System.out.println("Circle with Radius = " + this.getRadius() + " has Area: " + this.getCircleArea());
 	}
 }
